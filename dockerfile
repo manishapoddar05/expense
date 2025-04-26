@@ -13,7 +13,7 @@ RUN npm install
 # Copy the app files
 COPY . .
 
-# Build the app
+# Build the app now
 RUN npm run build
 
 # Expose the port
